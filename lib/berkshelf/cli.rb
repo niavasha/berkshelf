@@ -18,9 +18,9 @@ module Berkshelf
       end
 
       def execute!
-        $stdin  = @stdin
-        $stdout = @stdout
-        $stderr = @stderr
+#        $stdin  = @stdin
+#        $stdout = @stdout
+#        $stderr = @stderr
 
         Berkshelf::Cli.start(@argv)
         @kernel.exit(0)
